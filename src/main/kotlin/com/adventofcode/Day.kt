@@ -1,9 +1,16 @@
 package com.adventofcode
 
+object Day {
+
+  fun process(line: String) {
+
+  }
+}
+
 fun main() {
   ::main
     .javaClass
-    .getResourceAsStream("/day1.example.txt")!!
+    .getResourceAsStream("/day.1.txt")!!
     .bufferedReader()
-    .forEachLine(::println)
+    .forEachLine(Day::process)
 }
